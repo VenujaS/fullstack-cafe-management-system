@@ -27,17 +27,18 @@ fullstack-cafe-management-system/
 ├── backend-springboot/ # Spring Boot backend
 │ ├── src/
 │ │ └── main/java/com/cafe/backend/
-│ │ ├── controller/          # REST controllers
-│ │ ├── model/               # Entities (Menu, Orders, etc.)
+│ │ ├── controller/ # REST API controllers
+│ │ ├── model/ # Entities (Menu, Orders, etc.)
 │ │ └── BackendApplication.java
-│ └── build.gradle.kts
+│ └── build.gradle.kts # Gradle build file
 │
-├── frontend-react/          # React frontend (to be added)
-├── backend-fastapi/         # FastAPI microservice (Python)
-├── database/                # SQL scripts and sample data
-├── .vscode/                 # Project-specific VS Code settings
-│   └── settings.json        # Java auto-build + format on save
-└── README.md
+├── frontend-react/ # React frontend (to be added)
+├── backend-fastapi/ # FastAPI microservice (Python)
+├── database/ # SQL scripts and sample data
+├── .vscode/ # Project-specific VS Code settings
+│ └── settings.json # Java auto-build + format on save
+├── README.md # Project documentation
+└── LICENSE # MIT license
 
 ## Getting Started
 
